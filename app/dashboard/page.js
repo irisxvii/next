@@ -1,6 +1,10 @@
 import React from 'react'
 
-export default function dashboardPage() {
+export const metadata = {
+    title: "trackit⋅dashboard"
+  };
+
+export default function DashboardPage() {
   return (
     <div>ufff</div>
   )
