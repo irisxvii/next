@@ -1,8 +1,10 @@
+import { Main } from 'next/document'
 import React from 'react'
 
 export default function HomePage() {
   return (
-    <main className=''>
-    </main>
+    <Main className=''>
+      home
+    </Main>
   )
 }
