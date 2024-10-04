@@ -7,3 +7,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.maintext{
+    font-size: 30px;
+}
+.subtext{
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 10px;
+}
