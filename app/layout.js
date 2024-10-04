@@ -1,7 +1,11 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { Fugaz_One } from '@next/font/google';
+import { Fugaz_One, Open_Sans } from '@next/font/google';
 
+const opensans = Open_Sans({
+  weight: '400',  
+  subsets: ['latin'],  
+});
 
 const fugazOne = Fugaz_One({
   weight: '400',  
@@ -42,7 +46,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-         className={`w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}
+         className={`w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col `+ opensans.className}
          style={{ minHeight: '100vh' }} >
         {header}
         {children}
