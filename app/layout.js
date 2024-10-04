@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
   )
 
   const footer=(
-    <footer className="p-4 sm:p-8">
-      footer
+    <footer className="p-4 sm:p-8 ">
+      <p className={"subtext text-indigo-500 " + fugazOne.className}>created with luv</p>
     </footer>
   )
 

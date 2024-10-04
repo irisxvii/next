@@ -13,6 +13,7 @@
 .subtext{
     font-size: 30px;
 }
+
 h1{
     margin-bottom: 50px;
     text-align: center;
@@ -26,7 +27,7 @@ p{
     line-height: 1;
 }
 .custom-button {
-    padding: 20px 30px;
+    padding: 20px 50px;
     border-radius: 9999px; 
     border: 2px solid #4F46E5; 
     background-color: transparent;
